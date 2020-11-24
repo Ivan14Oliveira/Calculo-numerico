@@ -21,7 +21,7 @@ cout << "Digite a quantidade de entradas de 'x': ";
 
 cin >> n;
 
-double vetorx[n], vetory[n], vetorx2[n],vetorx3[n],vetorx4[n], vetorxy[n],vetorx2y[n], sumx, sumy, sumxy, sumx2,sumx3,sumx4,sumx2y, a, b,c,d, ym, SQReg, SQTot, Rquad;
+double vetorx[n], vetory[n], vetorx2[n],vetorx3[n],vetorx4[n], vetorxy[n],vetorx2y[n], sumx=0, sumy=0, sumxy=0, sumx2=0,sumx3=0,sumx4=0,sumx2y=0, a, b,c,d, ym, SQReg, SQTot, Rquad;
 
 for(i=0;i<n;i++){
 
@@ -108,4 +108,3 @@ cout << "Ajuste Linear: \n f(x)=" << c << "x^2 + " << b << "x + " << a << "\nR q
 return 0;
 
 }
-
